@@ -1,12 +1,12 @@
 {
-  "name": "payment-processing-eventbridge-setup",
+  "name": "serverless-stripe-payment-setup",
   "version": "1.0.0",
   "description": "Setup infrastructure for eventBridge",
   "main": "build/src/index.js",
   "dependencies": {
-    "@aws-sdk/client-eventbridge": "*",
-    "@aws-sdk/client-secrets-manager": "*",
-    "@aws-sdk/client-sns": "*",
-    "stripe": "*"
+    "@aws-sdk/client-eventbridge": "3.540.0",
+    "@aws-sdk/client-secrets-manager": "3.540.0",
+    "@aws-sdk/client-sns": "3.540.0",
+    "stripe": "15.11.0"
   }
 }
