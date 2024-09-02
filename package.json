@@ -1,0 +1,12 @@
+{
+  "name": "payment-processing-eventbridge-setup",
+  "version": "1.0.0",
+  "description": "Setup infrastructure for eventBridge",
+  "main": "build/src/index.js",
+  "dependencies": {
+    "@aws-sdk/client-eventbridge": "*",
+    "@aws-sdk/client-secrets-manager": "*",
+    "@aws-sdk/client-sns": "*",
+    "stripe": "*"
+  }
+}
